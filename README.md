@@ -58,7 +58,7 @@
 
 ```bash
 pip install -r requirements.txt
-python run.py --fake                                     # дымовой прогон на фейковых данных формата Instacart
+python run.py --fake                                     # прогон на фейковых данных формата Instacart
 python run.py --data-root <папка с csv Instacart> --n-users 30000
 ```
 
