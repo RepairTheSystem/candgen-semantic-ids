@@ -1,0 +1,302 @@
+{
+ "root": "/kaggle/input/datasets/psparks/instacart-market-basket-analysis",
+ "events": 4824796,
+ "users": 28667,
+ "items": 24149,
+ "train events": 4233197,
+ "test users": 28667,
+ "test basket size": 10.43014616109115,
+ "repeat share (test, по товарам)": 0.6108474553596811,
+ "distinct history items (медиана)": 47.0,
+ "load sec": 28
+}
+обучающих запросов: 115799
+  [dense] epoch 1 loss 6.0664 val R@50 0.1619 (14 с)
+  [dense] epoch 2 loss 5.6991 val R@50 0.1928 (12 с)
+  [dense] epoch 3 loss 5.5883 val R@50 0.2020 (12 с)
+  [dense] epoch 4 loss 5.5107 val R@50 0.2104 (12 с)
+  [dense] epoch 5 loss 5.4411 val R@50 0.2283 (12 с)
+  [dense] epoch 6 loss 5.3612 val R@50 0.2295 (12 с)
+  [dense] epoch 7 loss 5.2731 val R@50 0.2413 (13 с)
+  [dense] epoch 8 loss 5.1952 val R@50 0.2511 (13 с)
+  [dense] epoch 9 loss 5.1363 val R@50 0.2485 (13 с)
+  [dense] epoch 10 loss 5.0861 val R@50 0.2559 (13 с)
+  [dense] epoch 11 loss 5.0321 val R@50 0.2673 (13 с)
+  [dense] epoch 12 loss 4.9806 val R@50 0.2651 (12 с)
+  [dense] epoch 13 loss 4.9610 val R@50 0.2632 (12 с)
+  [dense] epoch 14 loss 4.9226 val R@50 0.2718 (13 с)
+  [dense] epoch 15 loss 4.8845 val R@50 0.2751 (13 с)
+  [dense] epoch 16 loss 4.8585 val R@50 0.2792 (13 с)
+  [dense] epoch 17 loss 4.8232 val R@50 0.2807 (13 с)
+  [dense] epoch 18 loss 4.7948 val R@50 0.2816 (13 с)
+  [dense] epoch 19 loss 4.7493 val R@50 0.2906 (12 с)
+  [dense] epoch 20 loss 4.7207 val R@50 0.2930 (13 с)
+  [dense] epoch 21 loss 4.6893 val R@50 0.2978 (13 с)
+  [dense] epoch 22 loss 4.6510 val R@50 0.2989 (13 с)
+  [dense] epoch 23 loss 4.6288 val R@50 0.2994 (13 с)
+  [dense] epoch 24 loss 4.5988 val R@50 0.3041 (13 с)
+  [dense] epoch 25 loss 4.5748 val R@50 0.3026 (13 с)
+  [dense] epoch 26 loss 4.5552 val R@50 0.3084 (13 с)
+  [dense] epoch 27 loss 4.5235 val R@50 0.3124 (13 с)
+  [dense] epoch 28 loss 4.5076 val R@50 0.3134 (13 с)
+  [dense] epoch 29 loss 4.4825 val R@50 0.3100 (13 с)
+  [dense] epoch 30 loss 4.4650 val R@50 0.3177 (13 с)
+  [sid-text] epoch 1 loss 2.6854 val R@50 0.2016 (20 с)
+  [sid-text] epoch 2 loss 2.3157 val R@50 0.2164 (20 с)
+  [sid-text] epoch 3 loss 2.2500 val R@50 0.2266 (20 с)
+  [sid-text] epoch 4 loss 2.2139 val R@50 0.2354 (20 с)
+  [sid-text] epoch 5 loss 2.1891 val R@50 0.2421 (20 с)
+  [sid-text] epoch 6 loss 2.1705 val R@50 0.2488 (20 с)
+  [sid-text] epoch 7 loss 2.1553 val R@50 0.2503 (20 с)
+  [sid-text] epoch 8 loss 2.1422 val R@50 0.2535 (20 с)
+  [sid-text] epoch 9 loss 2.1312 val R@50 0.2568 (20 с)
+  [sid-text] epoch 10 loss 2.1213 val R@50 0.2588 (20 с)
+  [sid-text] epoch 11 loss 2.1121 val R@50 0.2621 (20 с)
+  [sid-text] epoch 12 loss 2.1050 val R@50 0.2616 (20 с)
+  [sid-text] epoch 13 loss 2.0981 val R@50 0.2634 (20 с)
+  [sid-text] epoch 14 loss 2.0916 val R@50 0.2657 (20 с)
+  [sid-text] epoch 15 loss 2.0861 val R@50 0.2670 (20 с)
+  [sid-text] epoch 16 loss 2.0806 val R@50 0.2694 (20 с)
+  [sid-text] epoch 17 loss 2.0756 val R@50 0.2719 (20 с)
+  [sid-text] epoch 18 loss 2.0711 val R@50 0.2712 (20 с)
+  [sid-text] epoch 19 loss 2.0667 val R@50 0.2731 (20 с)
+  [sid-text] epoch 20 loss 2.0627 val R@50 0.2723 (20 с)
+  [sid-text] epoch 21 loss 2.0586 val R@50 0.2746 (20 с)
+  [sid-text] epoch 22 loss 2.0547 val R@50 0.2767 (20 с)
+  [sid-text] epoch 23 loss 2.0513 val R@50 0.2764 (20 с)
+  [sid-text] epoch 24 loss 2.0486 val R@50 0.2776 (20 с)
+  [sid-text] epoch 25 loss 2.0452 val R@50 0.2808 (20 с)
+  [sid-text] epoch 26 loss 2.0425 val R@50 0.2787 (20 с)
+  [sid-text] epoch 27 loss 2.0400 val R@50 0.2810 (20 с)
+  [sid-text] epoch 28 loss 2.0375 val R@50 0.2771 (20 с)
+  [sid-text] epoch 29 loss 2.0347 val R@50 0.2787 (20 с)
+  [sid-text] epoch 30 loss 2.0326 val R@50 0.2804 (20 с)
+  sid-text: {"levels": [128, 128, 128], "vocab": [128, 128, 128, 160], "unique codes (без d)": 8537, "доля товаров с коллизией": 0.7854569547393266, "макс. коллизия": 160, "residual err по уровням": [0.0386, 0.0145, 0.0093], "использовано кодов уровня 1": 128}
+  [sid-cf] epoch 1 loss 2.6984 val R@50 0.2155 (20 с)
+  [sid-cf] epoch 2 loss 2.4033 val R@50 0.2270 (20 с)
+  [sid-cf] epoch 3 loss 2.3212 val R@50 0.2354 (20 с)
+  [sid-cf] epoch 4 loss 2.2761 val R@50 0.2415 (20 с)
+  [sid-cf] epoch 5 loss 2.2444 val R@50 0.2461 (20 с)
+  [sid-cf] epoch 6 loss 2.2193 val R@50 0.2509 (20 с)
+  [sid-cf] epoch 7 loss 2.1989 val R@50 0.2488 (20 с)
+  [sid-cf] epoch 8 loss 2.1828 val R@50 0.2526 (20 с)
+  [sid-cf] epoch 9 loss 2.1685 val R@50 0.2558 (20 с)
+  [sid-cf] epoch 10 loss 2.1570 val R@50 0.2580 (20 с)
+  [sid-cf] epoch 11 loss 2.1467 val R@50 0.2607 (20 с)
+  [sid-cf] epoch 12 loss 2.1382 val R@50 0.2616 (20 с)
+  [sid-cf] epoch 13 loss 2.1304 val R@50 0.2653 (20 с)
+  [sid-cf] epoch 14 loss 2.1242 val R@50 0.2639 (20 с)
+  [sid-cf] epoch 15 loss 2.1181 val R@50 0.2654 (20 с)
+  [sid-cf] epoch 16 loss 2.1126 val R@50 0.2666 (20 с)
+  [sid-cf] epoch 17 loss 2.1074 val R@50 0.2650 (20 с)
+  [sid-cf] epoch 18 loss 2.1027 val R@50 0.2675 (20 с)
+  [sid-cf] epoch 19 loss 2.0986 val R@50 0.2686 (20 с)
+  [sid-cf] epoch 20 loss 2.0947 val R@50 0.2695 (20 с)
+  [sid-cf] epoch 21 loss 2.0911 val R@50 0.2720 (20 с)
+  [sid-cf] epoch 22 loss 2.0876 val R@50 0.2717 (20 с)
+  [sid-cf] epoch 23 loss 2.0840 val R@50 0.2720 (20 с)
+  [sid-cf] epoch 24 loss 2.0811 val R@50 0.2731 (20 с)
+  [sid-cf] epoch 25 loss 2.0783 val R@50 0.2734 (20 с)
+  [sid-cf] epoch 26 loss 2.0757 val R@50 0.2760 (20 с)
+  [sid-cf] epoch 27 loss 2.0734 val R@50 0.2751 (20 с)
+  [sid-cf] epoch 28 loss 2.0713 val R@50 0.2720 (20 с)
+  [sid-cf] epoch 29 loss 2.0688 val R@50 0.2769 (20 с)
+  [sid-cf] epoch 30 loss 2.0671 val R@50 0.2760 (20 с)
+  sid-cf: {"levels": [128, 128, 128], "vocab": [128, 128, 128, 29], "unique codes (без d)": 23585, "доля товаров с коллизией": 0.04422543376537331, "макс. коллизия": 29, "residual err по уровням": [0.6125, 0.508, 0.4474], "использовано кодов уровня 1": 128}
+
+# Кандген на Instacart (реальные данные), устройство cuda
+
+## Данные
+
+```json
+{
+ "root": "/kaggle/input/datasets/psparks/instacart-market-basket-analysis",
+ "events": 4824796,
+ "users": 28667,
+ "items": 24149,
+ "train events": 4233197,
+ "test users": 28667,
+ "test basket size": 10.43014616109115,
+ "repeat share (test, по товарам)": 0.6108474553596811,
+ "distinct history items (медиана)": 47.0,
+ "load sec": 28
+}
+```
+
+## Семантические ID
+
+```json
+{
+ "text": {
+  "levels": [
+   128,
+   128,
+   128
+  ],
+  "vocab": [
+   128,
+   128,
+   128,
+   160
+  ],
+  "unique codes (без d)": 8537,
+  "доля товаров с коллизией": 0.7854569547393266,
+  "макс. коллизия": 160,
+  "residual err по уровням": [
+   0.0386,
+   0.0145,
+   0.0093
+  ],
+  "использовано кодов уровня 1": 128,
+  "best epoch": 27,
+  "train sec": 606
+ },
+ "cf": {
+  "levels": [
+   128,
+   128,
+   128
+  ],
+  "vocab": [
+   128,
+   128,
+   128,
+   29
+  ],
+  "unique codes (без d)": 23585,
+  "доля товаров с коллизией": 0.04422543376537331,
+  "макс. коллизия": 29,
+  "residual err по уровням": [
+   0.6125,
+   0.508,
+   0.4474
+  ],
+  "использовано кодов уровня 1": 128,
+  "best epoch": 29,
+  "train sec": 604
+ }
+}
+```
+
+## Источники: Recall@K (тест)
+
+| source       |   R@10 |   R@50 |   R@100 |   R@200 |
+|:-------------|-------:|-------:|--------:|--------:|
+| pop          | 0.0710 | 0.1551 |  0.2208 |  0.2904 |
+| hist         | 0.3515 | 0.5699 |  0.6047 |  0.6134 |
+| hist+pop     | 0.3523 | 0.5852 |  0.6443 |  0.6848 |
+| dense        | 0.1586 | 0.3154 |  0.4039 |  0.5023 |
+| dense-exp    | 0.0176 | 0.0517 |  0.0767 |  0.1104 |
+| sid-text     | 0.1431 | 0.2851 |  0.3655 |  0.4551 |
+| sid-text-exp | 0.0181 | 0.0530 |  0.0767 |  0.1085 |
+| hybrid-text  | 0.1518 | 0.3075 |  0.3956 |  0.4892 |
+| sid-cf       | 0.1377 | 0.2798 |  0.3632 |  0.4574 |
+| sid-cf-exp   | 0.0187 | 0.0534 |  0.0784 |  0.1108 |
+| hybrid-cf    | 0.1516 | 0.3044 |  0.3908 |  0.4859 |
+
+
+## Разбивка при K=100: повторы / новое / новое из хвоста
+
+| source       |   R@100 |   R@100 repeat |   R@100 explore |   R@100 explore-tail |   coverage@100 |
+|:-------------|--------:|---------------:|----------------:|---------------------:|---------------:|
+| pop          |  0.2208 |         0.2777 |          0.1515 |               0.0000 |         0.0041 |
+| hist         |  0.6047 |         0.9752 |          0.0000 |               0.0000 |         0.9998 |
+| hist+pop     |  0.6443 |         0.9752 |          0.0962 |               0.0000 |         0.9998 |
+| dense        |  0.4039 |         0.4839 |          0.1714 |               0.0147 |         0.7902 |
+| dense-exp    |  0.0767 |         0.0000 |          0.1894 |               0.0170 |         0.7625 |
+| sid-text     |  0.3655 |         0.4281 |          0.1746 |               0.0030 |         0.3099 |
+| sid-text-exp |  0.0767 |         0.0000 |          0.1913 |               0.0035 |         0.3202 |
+| hybrid-text  |  0.3956 |         0.4640 |          0.1894 |               0.0053 |         0.3160 |
+| sid-cf       |  0.3632 |         0.4252 |          0.1793 |               0.0022 |         0.2884 |
+| sid-cf-exp   |  0.0784 |         0.0000 |          0.1966 |               0.0025 |         0.2869 |
+| hybrid-cf    |  0.3908 |         0.4607 |          0.1834 |               0.0047 |         0.3626 |
+
+
+## Объединение источников: hist + источник нового
+
+`fixed` — квота q подобрана на val; `switch` — q = α·K·p̂ (p̂ — регрессор доли повторов, α на val); `oracle` — q = K·(истинная доля повторов); `hist-first` — вся история, затем новое.
+
+```json
+{"corr(p̂, доля повторов) val": 0.5576601717120925, "corr test": 0.5314862148221323}
+```
+
+|                                     | param   |    R@K |   R@K repeat |   R@K explore |   R@K explore-tail |
+|:------------------------------------|:--------|-------:|-------------:|--------------:|-------------------:|
+| ('dense-exp', 10, 'fixed')          | 10      | 0.3524 |       0.4606 |        0.0008 |             0.0001 |
+| ('dense-exp', 10, 'switch')         | 5.0     | 0.3524 |       0.4606 |        0.0008 |             0.0001 |
+| ('dense-exp', 10, 'oracle')         |         | 0.3149 |       0.3734 |        0.0267 |             0.0010 |
+| ('dense-exp', 10, 'hist-first')     |         | 0.3524 |       0.4606 |        0.0008 |             0.0001 |
+| ('dense-exp', 50, 'fixed')          | 50      | 0.5919 |       0.8908 |        0.0385 |             0.0026 |
+| ('dense-exp', 50, 'switch')         | 3.0     | 0.5919 |       0.8907 |        0.0386 |             0.0026 |
+| ('dense-exp', 50, 'oracle')         |         | 0.5673 |       0.7984 |        0.0885 |             0.0057 |
+| ('dense-exp', 50, 'hist-first')     |         | 0.5919 |       0.8908 |        0.0385 |             0.0026 |
+| ('dense-exp', 100, 'fixed')         | 100     | 0.6568 |       0.9752 |        0.1113 |             0.0095 |
+| ('dense-exp', 100, 'switch')        | 3.0     | 0.6568 |       0.9752 |        0.1113 |             0.0095 |
+| ('dense-exp', 100, 'oracle')        |         | 0.6477 |       0.9295 |        0.1435 |             0.0118 |
+| ('dense-exp', 100, 'hist-first')    |         | 0.6568 |       0.9752 |        0.1113 |             0.0095 |
+| ('dense-exp', 200, 'fixed')         | 200     | 0.7069 |       0.9976 |        0.2205 |             0.0247 |
+| ('dense-exp', 200, 'switch')        | 2.0     | 0.7069 |       0.9976 |        0.2205 |             0.0247 |
+| ('dense-exp', 200, 'oracle')        |         | 0.7058 |       0.9857 |        0.2315 |             0.0263 |
+| ('dense-exp', 200, 'hist-first')    |         | 0.7069 |       0.9976 |        0.2205 |             0.0247 |
+| ('sid-text-exp', 10, 'fixed')       | 10      | 0.3525 |       0.4606 |        0.0008 |             0.0000 |
+| ('sid-text-exp', 10, 'switch')      | 5.0     | 0.3525 |       0.4606 |        0.0008 |             0.0000 |
+| ('sid-text-exp', 10, 'oracle')      |         | 0.3154 |       0.3734 |        0.0278 |             0.0001 |
+| ('sid-text-exp', 10, 'hist-first')  |         | 0.3525 |       0.4606 |        0.0008 |             0.0000 |
+| ('sid-text-exp', 50, 'fixed')       | 50      | 0.5923 |       0.8908 |        0.0398 |             0.0007 |
+| ('sid-text-exp', 50, 'switch')      | 3.0     | 0.5923 |       0.8907 |        0.0399 |             0.0007 |
+| ('sid-text-exp', 50, 'oracle')      |         | 0.5683 |       0.7984 |        0.0917 |             0.0010 |
+| ('sid-text-exp', 50, 'hist-first')  |         | 0.5923 |       0.8908 |        0.0398 |             0.0007 |
+| ('sid-text-exp', 100, 'fixed')      | 100     | 0.6573 |       0.9752 |        0.1145 |             0.0022 |
+| ('sid-text-exp', 100, 'switch')     | 3.0     | 0.6573 |       0.9752 |        0.1145 |             0.0022 |
+| ('sid-text-exp', 100, 'oracle')     |         | 0.6485 |       0.9295 |        0.1477 |             0.0025 |
+| ('sid-text-exp', 100, 'hist-first') |         | 0.6573 |       0.9752 |        0.1145 |             0.0022 |
+| ('sid-text-exp', 200, 'fixed')      | 200     | 0.7059 |       0.9976 |        0.2201 |             0.0060 |
+| ('sid-text-exp', 200, 'switch')     | 2.0     | 0.7059 |       0.9976 |        0.2201 |             0.0060 |
+| ('sid-text-exp', 200, 'oracle')     |         | 0.7044 |       0.9857 |        0.2307 |             0.0061 |
+| ('sid-text-exp', 200, 'hist-first') |         | 0.7059 |       0.9976 |        0.2201 |             0.0060 |
+| ('sid-cf-exp', 10, 'fixed')         | 10      | 0.3522 |       0.4606 |        0.0007 |             0.0000 |
+| ('sid-cf-exp', 10, 'switch')        | 5.0     | 0.3522 |       0.4606 |        0.0007 |             0.0000 |
+| ('sid-cf-exp', 10, 'oracle')        |         | 0.3157 |       0.3734 |        0.0292 |             0.0001 |
+| ('sid-cf-exp', 10, 'hist-first')    |         | 0.3522 |       0.4606 |        0.0007 |             0.0000 |
+| ('sid-cf-exp', 50, 'fixed')         | 50      | 0.5928 |       0.8908 |        0.0410 |             0.0004 |
+| ('sid-cf-exp', 50, 'switch')        | 3.0     | 0.5928 |       0.8907 |        0.0411 |             0.0004 |
+| ('sid-cf-exp', 50, 'oracle')        |         | 0.5691 |       0.7984 |        0.0941 |             0.0007 |
+| ('sid-cf-exp', 50, 'hist-first')    |         | 0.5928 |       0.8908 |        0.0410 |             0.0004 |
+| ('sid-cf-exp', 100, 'fixed')        | 100     | 0.6581 |       0.9752 |        0.1170 |             0.0015 |
+| ('sid-cf-exp', 100, 'switch')       | 3.0     | 0.6581 |       0.9752 |        0.1170 |             0.0015 |
+| ('sid-cf-exp', 100, 'oracle')       |         | 0.6495 |       0.9295 |        0.1508 |             0.0018 |
+| ('sid-cf-exp', 100, 'hist-first')   |         | 0.6581 |       0.9752 |        0.1170 |             0.0015 |
+| ('sid-cf-exp', 200, 'fixed')        | 180     | 0.7079 |       0.9964 |        0.2280 |             0.0048 |
+| ('sid-cf-exp', 200, 'switch')       | 2.0     | 0.7080 |       0.9976 |        0.2265 |             0.0048 |
+| ('sid-cf-exp', 200, 'oracle')       |         | 0.7067 |       0.9857 |        0.2374 |             0.0050 |
+| ('sid-cf-exp', 200, 'hist-first')   |         | 0.7079 |       0.9976 |        0.2265 |             0.0048 |
+
+
+## Латентность (batch=1, cuda)
+
+| source                         |   online p50 ms |   online p95 ms |   online p99 ms |
+|:-------------------------------|----------------:|----------------:|----------------:|
+| hist+pop                       |            0.59 |            0.71 |            0.75 |
+| dense                          |            2.38 |            2.57 |            2.77 |
+| sid-text (beam 200)            |           10.21 |           10.90 |           11.45 |
+| hybrid-text (beam 400 + dense) |           12.85 |           13.60 |           13.81 |
+| sid-cf (beam 200)              |           10.45 |           11.95 |           12.17 |
+| hybrid-cf (beam 400 + dense)   |           12.89 |           13.53 |           14.16 |
+
+
+## Обучение
+
+```json
+{
+ "dense": {
+  "best epoch": 30,
+  "train sec": 384
+ },
+ "params": {
+  "dense": 1660352,
+  "sid-text": 285280,
+  "sid-cf": 268381
+ }
+}
+```
+

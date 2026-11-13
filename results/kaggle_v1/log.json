@@ -1,0 +1,116 @@
+{
+ "args": {
+  "data_root": null,
+  "fake": false,
+  "fake_users": 3000,
+  "n_users": 30000,
+  "min_item_count": 10,
+  "max_len": 100,
+  "per_user": 5,
+  "dim": 64,
+  "layers": 2,
+  "batch": 256,
+  "eval_batch": 256,
+  "beam_batch": 32,
+  "lr": 0.001,
+  "n_neg": 2048,
+  "max_epochs": 30,
+  "patience": 3,
+  "sid_codes": [
+   128,
+   128,
+   128
+  ],
+  "sid_sources": [
+   "text",
+   "cf"
+  ],
+  "kmax": 200,
+  "ks": [
+   10,
+   50,
+   100,
+   200
+  ],
+  "val_users": 3000,
+  "head_share": 0.2,
+  "seed": 0,
+  "out": "results/main",
+  "device": "cuda"
+ },
+ "data": {
+  "root": "/kaggle/input/datasets/psparks/instacart-market-basket-analysis",
+  "events": 4824796,
+  "users": 28667,
+  "items": 24149,
+  "train events": 4233197,
+  "test users": 28667,
+  "test basket size": 10.43014616109115,
+  "repeat share (test, по товарам)": 0.6108474553596811,
+  "distinct history items (медиана)": 47.0,
+  "load sec": 28
+ },
+ "dense": {
+  "best epoch": 30,
+  "train sec": 384
+ },
+ "sid": {
+  "text": {
+   "levels": [
+    128,
+    128,
+    128
+   ],
+   "vocab": [
+    128,
+    128,
+    128,
+    160
+   ],
+   "unique codes (без d)": 8537,
+   "доля товаров с коллизией": 0.7854569547393266,
+   "макс. коллизия": 160,
+   "residual err по уровням": [
+    0.0386,
+    0.0145,
+    0.0093
+   ],
+   "использовано кодов уровня 1": 128,
+   "best epoch": 27,
+   "train sec": 606
+  },
+  "cf": {
+   "levels": [
+    128,
+    128,
+    128
+   ],
+   "vocab": [
+    128,
+    128,
+    128,
+    29
+   ],
+   "unique codes (без d)": 23585,
+   "доля товаров с коллизией": 0.04422543376537331,
+   "макс. коллизия": 29,
+   "residual err по уровням": [
+    0.6125,
+    0.508,
+    0.4474
+   ],
+   "использовано кодов уровня 1": 128,
+   "best epoch": 29,
+   "train sec": 604
+  }
+ },
+ "switch": {
+  "corr(p̂, доля повторов) val": 0.5576601717120925,
+  "corr test": 0.5314862148221323
+ },
+ "params": {
+  "dense": 1660352,
+  "sid-text": 285280,
+  "sid-cf": 268381
+ }
+}
